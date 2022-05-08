@@ -1,0 +1,12 @@
+Please follow these instructions to run the R codes.
+
+Libraries required are:-
+1. quantmod
+2. MASS
+
+Steps
+
+1. First run FetchStockData.R file to fetch the required data
+2. Now run the Prio_Melo.R file which contains the required calculations for prior parameters.
+3. Now run melo_mv.R (informative GMV), MELO_MV_NI.R (non informative GMV), MELO_TP.R (informative TP) and MELO_TP_NI.R (Non informative TP).
+4. Now run Test_TP_GMV.R which tests all the weights for k weeks and evaluates Sharpe Ratio.
