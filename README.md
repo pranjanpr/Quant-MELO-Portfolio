@@ -48,5 +48,7 @@ Results: Sharpe Ratio of MELO Portfolio: 0.71
 Sharpe Ratio of S&P500: 0.03 - 0.52
 
 Final Portfolio Price: 202.22
+
 Initial Portfolio Price: 139.5
-Return = 62%
+
+Return = 62% (Annual)
