@@ -25,3 +25,28 @@ The tickers used for study are:
 * Google
 
 Also find the original paper [here](https://doi.org/10.1007/s11579-019-00246-w).
+
+# Update:
+Changing the duration of training time improves the test sharpe ratio a lot (even above the S&P500).
+
+Training Duration:
+
+`start_date <- "2019-04-01"`
+
+`end_date <- "2020-04-01"`
+
+`nweeks <- "53"`
+
+Testing Duration:
+
+`test_start_date <- "2020-04-15"`
+
+`test_end_date <- "2021-01-15"`
+
+Results: Sharpe Ratio of MELO Portfolio: 0.71
+
+Sharpe Ratio of S&P500: 0.03 - 0.52
+
+Final Portfolio Price: 202.22
+Initial Portfolio Price: 139.5
+Return = 62%
